@@ -3,8 +3,8 @@ getdata<-function(){
   fileslist<-list.files(pattern="*.gpr",all.files=TRUE)
   end<-length(fileslist)
   allchips<-1:end
-  #reads the chip data
-  #and separates data by block
+  #reads chip data
+  #separates data by block
   #there will always be 8 blocks in each chip
   blocks=1:8
   #col_nums<-end*length(blocks)
