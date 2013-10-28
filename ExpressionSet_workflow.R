@@ -36,7 +36,6 @@ for (i in chiprange){
   }
 }
 colnames(sponge_data_matrix)<-colnames
-colnames(sponge_data_matrix)<-colnames
 rownames(sample_info)<-sample_rownames
 class(sponge_data_matrix)<-"numeric"
 sponge_data_matrix<-sponge_data_matrix[,-73]
